@@ -39,17 +39,17 @@ class BasicCompletion
         //    The most frequently used item is usually pre-selected e.g. $this->Age
         //    might be at the top as it's the most used.
         //    Dismiss the window with Esc.
-        // $value =
+        //$value =
 
 
         // 3. Type: $this->r
         //    Complete the statement using the Complete Statement.
         // $this->r
-        $this->run();
+        //$this->run();
 
         // 7. Type: if (true
         //    Complete the statement using Complete Statement.
-        // if (true
+        //if (true
 
 
         // 8. Place the caret right after "say". Use basic completion and replace
@@ -84,5 +84,6 @@ class BasicCompletion
 
     public function veryLongFunctionName()
     {
+        //$person = new Person();
     }
 }
