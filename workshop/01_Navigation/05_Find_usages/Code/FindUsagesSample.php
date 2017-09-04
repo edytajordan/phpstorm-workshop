@@ -11,3 +11,5 @@ class FindUsagesSample
         $target->adjust(3, 9);
     }
 }
+
+?>

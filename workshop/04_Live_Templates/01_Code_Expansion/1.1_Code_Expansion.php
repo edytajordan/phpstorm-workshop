@@ -29,7 +29,15 @@ class CodeExpansion
     // 3. Create a public static function staticFunction1() by using the pubsf live template.
 
     // pubsf <TAB>
+    protected function firstFunction()
+    {
 
+    }
+
+    public static function staticFunction()
+    {
+
+    }
     protected function secondFunction()
     {
         $numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
@@ -41,4 +49,8 @@ class CodeExpansion
         // fore <TAB>
 
     }
+}
+
+if ($person) {
+
 }

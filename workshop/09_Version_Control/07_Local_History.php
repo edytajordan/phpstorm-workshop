@@ -19,4 +19,4 @@ $name = 'Maarten';
 //    We can see we have changed a line of code and added a line of code.
 // 4. Revert the last change we did from the Local History.
 // 5. Rollback to the first version of the current file using Local History.
-// 6. Check Local History on a folder in the current project. We can see all changes that have been made, even between VCS commits.
+// 6. Check Local History on a folder in the current project. We can see all changes that have been made, even between VCS commits. kjfjd ddlj fdjgl fgldjg lgdflf ldfggjflg  gfdlgfdgl jgflgj fggfj gfdlj gfjgj fdg gljgjlgjgl gj jgj lgl d

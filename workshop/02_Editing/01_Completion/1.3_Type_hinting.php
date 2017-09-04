@@ -16,13 +16,14 @@ namespace Editing1\JetBrains;
 
 use Debugging\JetBrains\Person;
 
+
 $people = array();
 $people[] = new Person('Trillian');
 
 foreach ($people as $person) {
     // 1. Auto completion on $person will not show anything about the Person class.
     //    Type $person-> and see for yourself.
-    // $person->
+    //$person->
 
 
     // 2. We can solve this!
@@ -30,7 +31,7 @@ foreach ($people as $person) {
     //        /** @var $people Person[] */
     //    This tells PhpStorm the array contains Person objects.
     //    Type $person-> and see for yourself that we now have completion.
-    // $person->
+    //$person->
 
 
     // 3. Place the cursor on $person and use Quick Documentation.
